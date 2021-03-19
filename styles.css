@@ -28,6 +28,7 @@ body {
 .item--3 {
     padding-top: 75px;
     size: 20%;
+    text-align: center;
 }
 
 .navbar {
@@ -38,3 +39,34 @@ body {
     text-align: center;
     padding-left: 200px;
 }
+
+.item--3.eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; 
+    text-align: center; 
+    padding-bottom: 50px;
+  }
+  .eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .ball {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+ 
