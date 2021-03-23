@@ -5,11 +5,12 @@
     object-fit: cover;
 
     display: grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
 
     padding-top: 150px;
+    align-items: baseline;
 }
 
 body {
@@ -21,14 +22,13 @@ body {
 }
 
 .item{
-    padding: 20px;
     width: 100%;
     height: auto;;
    
 }
 
 .item--1 {
-    padding-top: 75px;
+    padding-top: 25px;
     width: 100%;
     height: auto;  
     text-align: center; 
@@ -42,7 +42,6 @@ body {
     }
 
 .item--3 {
-    padding-top: 75px;
     width: 100%;
     height: auto;
     text-align: center;
@@ -84,6 +83,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+  }
+
+  .pacImgText {
+    text-align: center;
+  }
+
+  .pacImgText img{
+    display: inline-block;
+    margin: 0 auton;
   }
 
  
