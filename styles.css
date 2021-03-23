@@ -84,14 +84,11 @@ body {
     border-radius: 50%;
   }
 
-  .pacImgText {
-    text-align: center;
-  }
-
   .pacImgText img{
-      position: relative;
+    position: relative;
     display: block;
     margin: 0 auto;
+    padding-right: 50px;
   }
 
   .busImg img{
@@ -116,7 +113,7 @@ a {
 
 a:hover {
     color: black;
-    background-color: crimson;
+    background-color: blanchedalmond;
 }
 
 .eyelink {
