@@ -10,7 +10,6 @@
     gap: 20px;
 
     padding-top: 150px;
-    align-items: baseline;
 }
 
 body {
@@ -94,4 +93,7 @@ body {
     margin: 0 auton;
   }
 
- 
+  .navbar {
+    text-align: center;
+    padding-left: 80px;
+}
