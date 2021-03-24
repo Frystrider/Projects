@@ -5,7 +5,7 @@
     object-fit: cover;
 
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
 
@@ -27,6 +27,15 @@ body {
 }
 
 .item--1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.item--1 h1 {
+    padding-top: 60px;
+}
+
+.item--2 {
     position: relative;
     width: 100%;
     height: auto;  
@@ -34,17 +43,36 @@ body {
     padding-top: 50px; 
 }
 
-    .item--2 {
+.item--3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.item--3 h1 {
+    padding-top: 60px;
+}
+
+    .item--4 {
         width: 100%;
         height: auto;
         text-align: center;
         padding-top: 50px;
     }
 
-.item--3 {
+    .item--5 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .item--5 h1 {
+        padding-top: 60px;
+    }
+
+.item--6 {
     width: 100%;
     height: auto;
     text-align: center;
+    padding-top: 50px;
 }
 
 .navbar {
@@ -120,4 +148,8 @@ a:hover {
 
 .eyelink {
     text-align: center;
+}
+
+.item--1, .item--3, .item--5 {
+    background-color: darkgray;
 }
